@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.constraintlayout.widget.ConstraintLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/chromecast_controls_root"
@@ -58,7 +58,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/toggle_playback_button" />
 
-        <androidx.mediarouter.app.MediaRouteButton
+        <android.support.v7.app.MediaRouteButton
             android:id="@+id/media_route_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -134,4 +134,4 @@
 
         </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

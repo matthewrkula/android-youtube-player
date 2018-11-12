@@ -1,7 +1,7 @@
 package com.pierfrancescosoffritti.androidyoutubeplayer.player.playerUtils;
 
 import android.annotation.SuppressLint;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.pierfrancescosoffritti.androidyoutubeplayer.player.PlayerConstants;
 import com.pierfrancescosoffritti.androidyoutubeplayer.player.YouTubePlayer;

@@ -1,6 +1,6 @@
 package com.pierfrancescosoffritti.androidyoutubeplayer.player;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.pierfrancescosoffritti.androidyoutubeplayer.player.listeners.YouTubePlayerListener;
 

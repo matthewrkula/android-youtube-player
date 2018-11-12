@@ -1,7 +1,7 @@
 package com.pierfrancescosoffritti.aytplayersample.utils;
 
 import android.graphics.Bitmap;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 public class VideoInfo {
     @NonNull private final String videoTitle;
