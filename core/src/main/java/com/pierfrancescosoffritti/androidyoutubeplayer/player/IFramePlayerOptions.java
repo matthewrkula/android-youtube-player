@@ -87,7 +87,7 @@ public class IFramePlayerOptions {
             return this;
         }
         
-        private void addString(@NonNull String key, @NonNull String value) {
+        public void addString(@NonNull String key, @NonNull String value) {
             try {
                 builderOptions.put(key, value);
             } catch (JSONException e) {
@@ -95,7 +95,7 @@ public class IFramePlayerOptions {
             }
         }
         
-        private void addInt(@NonNull String key, int value) {
+        public void addInt(@NonNull String key, int value) {
             try {
                 builderOptions.put(key, value);
             } catch (JSONException e) {
